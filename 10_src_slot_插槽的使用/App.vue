@@ -3,7 +3,7 @@
  * @Description: Description
  * @Date: 2024-01-27 11:35:36
  * @LastEditors: Chengya
- * @LastEditTime: 2024-02-04 17:13:59
+ * @LastEditTime: 2024-03-04 20:50:19
 -->
 <template>
   <div>
@@ -48,7 +48,7 @@
         </template>
       </TestThree>
       <TestThree>
-        <template v-sssscope="{ list, myCar }" slot="test3">
+        <template v-scope="{ list, myCar }" slot="test3">
           <p v-for="(item, index) in list" :key="index">
             {{ item }}
           </p>
