@@ -3,7 +3,7 @@
  * @Description: Description
  * @Date: 2024-01-27 11:35:36
  * @LastEditors: Chengya
- * @LastEditTime: 2024-02-22 19:37:15
+ * @LastEditTime: 2024-04-24 09:50:00
  */
 import Vue from "vue";
 import App from "./App.vue";
@@ -23,7 +23,7 @@ new Vue({
   el: "#app",
   store,
   beforeCreate() {
-    //注册 全局事件总线
+    //注册 全局事件总线。
     Vue.prototype.$bus = this;
   },
   render: (h) => h(App),
